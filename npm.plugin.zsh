@@ -1,3 +1,7 @@
+# npm aliases & command completion
+#
+# See README.md for details
+
 (( $+commands[npm] )) && {
     __NPM_COMPLETION_FILE="${ZSH_CACHE_DIR}/npm_completion"
 
