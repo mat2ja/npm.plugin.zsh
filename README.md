@@ -12,7 +12,7 @@ _Originally based on [the default Oh-My-ZSH npm plugin](https://github.com/robby
 
 Read [plugin file](npm.plugin.zsh), learn aliases and use it rest of your life.
 
-##  Installation  ##
+##  Installation
 
 Create folder inside your Oh-My-ZSH directory with custom plugins. Copy plugin files to it. Activate it in your ZSH config file. Usually it looks like:
 
@@ -29,3 +29,10 @@ plugins=(npm)
 ```
 
 After that this custom plugin will override default `npm` plugin from Oh-My-ZSH.
+
+## Update
+
+```
+cd ~/.oh-my-zsh/custom/plugins/npm
+git pull
+```
