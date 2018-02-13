@@ -105,9 +105,10 @@ alias nts="npm test"
 # Run custom npm script
 alias nr="npm run"
 
-# Remove shrinkwrap
+# Remove lock files
 # ! for prevent accidental run
-alias nrsh!="rm -rf ./npm-shrinkwrap.json"
+alias nrsh!="rm -rf ./npm-shrinkwrap.json ./package-lock.json"
+alias nrpl!="nrsh!"
 
 # Clear node_modules in current directory
 # ! for prevent accidental run
