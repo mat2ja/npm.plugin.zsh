@@ -90,6 +90,9 @@ alias nlsg0="npm list -g --depth=0"
 # Publish a package
 alias npbl="npm publish"
 
+# Search in the npm database
+alias ns="npm search"
+
 # Create shrinkwrap
 alias nsh="npm shrinkwrap"
 
