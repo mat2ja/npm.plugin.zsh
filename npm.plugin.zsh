@@ -105,6 +105,12 @@ alias nts="npm test"
 # Run custom npm script
 alias nr="npm run"
 
+# Run npm audit
+alias na="npm audit"
+
+# Run npm audit fix
+alias naf="npm audit fix"
+
 # Remove lock files
 # ! for prevent accidental run
 alias nrsh!="rm -rf ./npm-shrinkwrap.json ./package-lock.json"
