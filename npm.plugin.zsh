@@ -75,7 +75,7 @@ alias no="npm outdated"
 # Symlink a package folder
 alias nlnk="npm link"
 
-# List packages (only first level)
+# List packages
 alias nls="npm list"
 
 # List packages (only first level)
@@ -118,6 +118,6 @@ alias nclr!="rm -rf ./node_modules/"
 # ! for prevent accidental run
 alias nre!="nclr! && ni"
 
-# Reinstall package with remove-create shrinkwrap
+# Reinstall package with remove-create package-lock
 # ! for prevent accidental run
-alias nres!="nclr! && nrsh! && ni && nsh"
+alias nres!="nclr! && nrsh! && ni"
