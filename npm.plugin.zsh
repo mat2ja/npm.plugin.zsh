@@ -127,3 +127,8 @@ alias nre!="nclr! && ni"
 # Reinstall package with remove-create package-lock
 # ! for prevent accidental run
 alias nres!="nclr! && nrsh! && ni"
+
+# ------------------------------------------------
+
+# run dev server
+alias nrd="nr dev"
