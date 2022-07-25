@@ -2,37 +2,18 @@
 
 npm aliases & command completion
 
-##  Description
-
-This plugin provides shortcuts for common npm commands and enables npm completion. 
-
-_Originally based on [the default Oh-My-ZSH npm plugin](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/npm)._
-
 ##  Usage
 
 Read [plugin file](npm.plugin.zsh), learn aliases and use it rest of your life.
 
-##  Installation
+### Oh My Zsh
 
-Create folder inside your Oh-My-ZSH directory with custom plugins. Copy plugin files to it. Activate it in your ZSH config file. Usually it looks like:
+1. Clone the repository:
+    ```zsh
+    git clone --depth=1 https://github.com/mat2ja/exa.plugin.zsh.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/exa
+    ```
+2. Include it in your `~/.zshrc`:
+    ```zsh
+    plugins=(... exa)
+    ```
 
-```
-cd ~/.oh-my-zsh/custom/plugins/
-git clone git@github.com:igoradamenko/npm.plugin.zsh.git npm
-vim ~/.zshrc
-```
-
-In opened file find array `plugins` and add `npm` in it (or add whole line if it does not exist):
-
-```
-plugins=(npm)
-```
-
-After that this custom plugin will override default `npm` plugin from Oh-My-ZSH.
-
-## Update
-
-```
-cd ~/.oh-my-zsh/custom/plugins/npm
-git pull
-```
